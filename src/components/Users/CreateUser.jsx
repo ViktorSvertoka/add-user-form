@@ -33,21 +33,21 @@ const CreateUser = props => {
   return (
     <Card>
       <Form onSubmit={createUserHandler}>
-        <Label htmlFor="name">Имя</Label>
+        <Label htmlFor="name">Ім'я</Label>
         <Input
           id="name"
           type="text"
           onChange={nameChangeHandler}
           value={inputName}
         />
-        <Label htmlFor="age">Возраст</Label>
+        <Label htmlFor="age">Вік</Label>
         <Input
           id="age"
           type="number"
           onChange={ageChangeHandler}
           value={inputAge}
         />
-        <Button type="submit">Добавить Пользователя</Button>
+        <Button type="submit">Додати Користувача</Button>
       </Form>
     </Card>
   );

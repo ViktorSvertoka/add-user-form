@@ -9,12 +9,16 @@ export const Wrapper = styled.div`
 `;
 
 export const List = styled.ul`
-  display: flex;
-  flex-direction: column;
-  width: 400px;
+  border-radius: 4px;
+  list-style: none;
+  padding: 0;
+`;
+
+export const Item = styled.li`
   padding: 12px;
   background-color: rgba(211, 227, 93, 0.7);
   border: 3px solid #1492cd;
   border-radius: 4px;
   list-style: none;
+  margin-bottom: 10px;
 `;
