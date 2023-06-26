@@ -16,4 +16,5 @@ export const List = styled.ul`
   background-color: rgba(211, 227, 93, 0.7);
   border: 3px solid #1492cd;
   border-radius: 4px;
+  list-style: none;
 `;
