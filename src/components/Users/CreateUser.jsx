@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card from 'components/UI/Card';
+import Card from 'components/Card/Card';
 import { Form, Label, Button, Input } from './CreateUser.styled';
 
 const CreateUser = props => {
@@ -17,6 +17,7 @@ const CreateUser = props => {
     }
 
     console.log(inputName, inputAge);
+    props.onCreateUser(inputName, inputAge);
     setInputName('');
     setInputAge('');
   };
