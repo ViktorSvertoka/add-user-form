@@ -13,7 +13,7 @@ export const Form = styled.form`
 export const Label = styled.label`
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   color: #1492cd;
   font-size: 20px;
 `;
@@ -23,6 +23,7 @@ export const Input = styled.input`
   font: inherit;
   cursor: pointer;
   border: 3px solid #1492cd;
+  margin-bottom: 20px;
 `;
 
 export const Button = styled.button`
@@ -36,5 +37,5 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 `;
